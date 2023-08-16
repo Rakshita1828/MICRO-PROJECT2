@@ -1,0 +1,311 @@
+.temp
+{
+   display:flex;
+   flex-direction: column; 
+}
+
+
+.nav
+{
+    background-color: #6F6AF7;
+    display:flex;
+    justify-content:space-around;
+    position:fixed;
+    width:100%;
+}
+
+.nav>div
+{
+    margin:20px;
+
+}
+
+.logo img
+{
+    margin:2%;
+
+}
+
+.menu
+{
+    display:flex;
+}
+.menu ul
+{
+    display:flex;
+    list-style-type:none;
+    color: #FFF;
+font-family: DM Sans;
+font-size: 36.43px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+
+ /* Default */
+    justify-content: space-between;
+    width: 75%;;
+    
+    margin: 0;
+    padding: 0;
+}
+
+li
+{
+    display: block;
+    flex: 0 1 auto; /* Default */
+    list-style-type: none;
+    /*margin:40px;*/
+    /*padding:20px;*/
+    margin-right:40px;
+}
+
+.searchbar
+{
+    background-color: white;
+    overflow: hidden;
+border-radius:2rem;
+box-shadow:0 1px 2px #aaa;
+
+}
+.searchbar input
+{
+    border: none;
+    text-align: left;
+    border-radius: 2px;;
+    font-size: 20px;
+    margin-left: 20px;
+    
+    
+}
+.searchbar img
+{
+    margin-left: 0px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+
+
+.midPart
+{
+    display:flex;
+    margin-top: 10%;
+    justify-content: right;
+    width:100%;
+    
+}
+
+.midPart>div
+{
+    margin:20px;
+}
+
+.mid-right
+{
+    margin-right:-5px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    
+}
+.mid-right>ul
+{
+    margin-right:-10px;
+    padding-right:-2px;
+}
+.mid-right>ul>li
+{
+    margin-right:-10px;
+    padding-right:-2px;
+}
+
+
+.mid-left>img
+{
+    margin-left:20px;
+    padding-left:20px;
+}
+
+textarea
+{
+    border-radius: 20px;
+border: 6px solid #FFF;
+background: #E5D8FF;
+box-shadow: 3px 5px 27px 0px rgba(0, 0, 0, 0.25) inset;
+color: #6F7373;
+font-family: DM Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 70%; 
+padding: 20px;
+width:85%;
+}
+
+.third
+{
+    display:flex;
+    justify-content: space-around;
+}
+
+.third>div
+{
+    border-radius: 11px;
+
+box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.40);
+width:15%;
+}
+.third>div>p
+{
+    color: #FFF;
+font-family: DM Sans;
+font-size: 29px;
+font-style: normal;
+font-weight: 700;
+line-height: 178.7%; /* 51.823px */
+letter-spacing: 1.16px;
+margin-left:5px;
+}
+.card2
+{
+    background: #734CF2;
+box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.40);
+}
+
+.card3
+{
+    background: #D288FF;
+box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.40);
+
+}
+
+.card4
+{
+    border-radius: 11px;
+background: #000;
+box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.40);
+}
+
+.card1
+{
+    background: #929DFF;
+box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.40);
+}
+
+.fourth
+{
+    display:flex;
+    border-radius: 21px;
+background: #483EFF;
+
+width:70%;
+align-self: center;
+margin-top: 90px;
+margin-bottom: 90px;
+
+}
+.fourth-left
+{
+    width:30%;
+    display:flex;
+    flex-direction: column;
+   /* border:solid 2px red;*/
+    margin:50px;
+    padding-left:30px;
+}
+.fourth-left>div
+{
+    border-radius: 12px;
+    font-weight: bold;
+margin:40px;
+text-align: center;
+}
+.one
+{
+    background: #BCE0F6;
+box-shadow: 0px 6px 35px 0px rgba(0, 0, 0, 0.39);
+}
+
+.two
+{
+    border-radius: 22px;
+    border: 5px solid #FFF;
+    color: #FFF; 
+}
+
+.three
+{
+    border-radius: 22px;
+border: 5px solid #FFF;
+color:#FFF;
+}
+.fourth-right
+{
+    width:60%;
+    margin:50px;
+    padding: 50px;
+    border-radius: 19px;
+background: #FFF;
+}
+
+.fourth-right>div
+{
+    padding:10px;
+}
+
+.heading
+{
+    color: #04285A;
+font-family: Inter;
+font-size: 38px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 3.99px;
+text-align: center;
+}
+
+.ek
+{
+    text-align: center;
+}
+.do
+{
+    text-align:center;
+}
+.teen
+{
+    text-align:center;
+}
+.chaar
+{
+    text-align:center;
+}
+.nex
+{
+    
+    background-color: black;
+    color:white;
+    border-radius: 9px;
+background: #000;
+color: #FFF;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.5px;
+padding:10px;
+
+
+}
+.ri
+{
+    display:flex;
+    justify-content: flex-end;
+}
+.nex>img
+{
+    width:20px;
+}
